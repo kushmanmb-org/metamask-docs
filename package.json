@@ -7,8 +7,8 @@
     "name": "kushmanmb",
     "ens": "kushmanmb.base.eth"
   },
-  "creator": "kushmanmb.base.eth",
-  "owner": "kushmanmb.base.eth",
+  "x-creator": "kushmanmb.base.eth",
+  "x-owner": "kushmanmb.base.eth",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start -p 3003",

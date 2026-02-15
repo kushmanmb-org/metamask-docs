@@ -80,8 +80,10 @@ const config = {
       "@type": "Organization",
       "url": "${fullUrl}",
       "logo": "${new URL('img/favicons/favicon-96x96.png', fullUrl).toString()}",
-      "creator": "kushmanmb.base.eth",
-      "owner": "kushmanmb.base.eth"
+      "founder": {
+        "@type": "Person",
+        "name": "kushmanmb.base.eth"
+      }
     }
   `,
     },
