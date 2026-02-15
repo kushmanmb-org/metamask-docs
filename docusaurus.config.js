@@ -79,7 +79,9 @@ const config = {
       "@context": "https://schema.org",
       "@type": "Organization",
       "url": "${fullUrl}",
-      "logo": "${new URL('img/favicons/favicon-96x96.png', fullUrl).toString()}"
+      "logo": "${new URL('img/favicons/favicon-96x96.png', fullUrl).toString()}",
+      "creator": "kushmanmb.base.eth",
+      "owner": "kushmanmb.base.eth"
     }
   `,
     },

@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "private": true,
   "license": "(MIT OR Apache-2.0)",
+  "author": {
+    "name": "kushmanmb",
+    "ens": "kushmanmb.base.eth"
+  },
+  "creator": "kushmanmb.base.eth",
+  "owner": "kushmanmb.base.eth",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start -p 3003",
