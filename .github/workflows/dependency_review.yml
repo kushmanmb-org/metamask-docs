@@ -9,7 +9,7 @@ on:
 jobs:
   case:
     name: Check for licenses not being allowed
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     strategy:
       matrix:
         folder: ["docs"]

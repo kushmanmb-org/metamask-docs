@@ -17,7 +17,7 @@ env:
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v6
       - name: Build
@@ -25,7 +25,7 @@ jobs:
 
   case:
     name: Check for case being inconsistent
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     strategy:
       matrix:
         folder: ['docs']
@@ -39,7 +39,7 @@ jobs:
 
   lint:
     name: Lint Code Base
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v6
       - name: Lint
@@ -47,7 +47,7 @@ jobs:
 
   spelling:
     name: Spelling
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     strategy:
       matrix:
         file-extensions: ['.md', '.mdx']
@@ -60,7 +60,7 @@ jobs:
 
   linkCheck:
     name: Link Checking
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v6
       - name: LinkCheck

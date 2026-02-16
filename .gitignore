@@ -23,3 +23,43 @@ npm-debug.log*
 .envrc
 .env
 .integrationBuilderCache
+
+# Private data and sensitive information
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+secrets.json
+secrets.yml
+secrets.yaml
+*.secret
+*.private
+private/
+.secrets/
+credentials.json
+auth.json
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# API keys and tokens
+.api-keys
+*.token
+.tokens/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*~
